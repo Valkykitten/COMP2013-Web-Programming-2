@@ -4,11 +4,14 @@ import Card from './Components/Card.JSX';
 function App() {
   return (
     <>
+    <div className="main-div">
       <h1>Diamond World </h1>
       <div className="main-container">
+        
       <Card image="src\assets\images\1.jpg" name="princess" price="$1,350"/>
-      <Card image="src\assets\images\2.jpg" name="swan" price="$900"/>
+      <Card image="src\assets\images\2.jpg" name="swan" price="$900" sale={true}/>
       <Card image="src\assets\images\3.jpg" name="Collection" price="$1,100"/>
+      </div>
       </div>
     </>
   );
