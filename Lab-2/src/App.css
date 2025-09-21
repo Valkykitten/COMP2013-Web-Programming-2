@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(241, 240, 240);
+  font-family: Arial;
+  width: 100%;
+}
+
+h1 {
+  color: #666;
+  font-size: 64px;
+  text-align: center;
+}
+
+
+
+.divider {
+  height: 5px;
+  background: #666;
+  width: 100%;
+}
+
+.main-container{
+  
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding:10px;
+}
+
+.card-component{
+  padding: 5px;
+  margin: 5px;
+
+}
+
+.card-component h2 {
+  color: black;
+  text-align: left;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-weight: bold;
+  font-size: 21px;
+
+}
+
+.company {
+  color: #666;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 17px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.rating {
+  text-align: left;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 17px;
+}
+
+.price {
+  color: #666;
+  text-align: left;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 17px;
+  
+}
+
+.rating.high {
+  color:green;
+  font-weight: bold;;
+}
+
+.rating.low{
+  color: red;
+  font-weight: bold;
+}
